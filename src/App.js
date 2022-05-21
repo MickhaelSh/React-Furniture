@@ -1,23 +1,35 @@
-import logo from './logo.svg';
-import './App.css';
+import { useDispatch } from 'react-redux';
+import { setProducts } from '../src/components/redux/actions/products';
+import { useEffect } from 'react';
+import Footer from './components/Footer';
+import Header from './components/Header';
+import Home from './components/pages/Home';
+import Cart from './components/Cart';
+import dataBase from './db.json';
+
+import { Routes, Route } from 'react-router-dom';
+import AllProducts from './components/pages/AllProducts';
+import ProductPage from './components/pages/ProductPage';
 
 function App() {
+  const dispatch = useDispatch();
+
+  useEffect(() => {
+    dispatch(setProducts(dataBase.furniture));
+  }, [dispatch]);
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="wrapper">
+      <Header />
+      <div className="content">
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/all-products" element={<AllProducts />} />
+          <Route path="/product/:productID" element={<ProductPage />} />
+          <Route path="/all-products/product/:productID" element={<ProductPage />} />
+        </Routes>
+        <Cart />
+      </div>
+      <Footer />
     </div>
   );
 }
