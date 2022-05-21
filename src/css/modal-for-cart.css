@@ -193,12 +193,9 @@
 }
 .modal-basket-form-window::placeholder {
   font-size: 0.8rem;
-  padding-left: 1.2rem;
   color: var(--main-gray-color);
 }
-.modal-basket-form-comment::placeholder {
-  padding-top: 1rem;
-}
+
 .modal-basket-product-img-container {
   height: 100%;
   width: auto;
@@ -209,7 +206,7 @@
 .modal-basket-product-price > .product-price-text,
 .modal-basket-product-info .modal-basket-product-name .product-name-text,
 .dollar-or-uah {
-  text-align: center;
+  text-align: start;
   margin: 0 5px;
   text-overflow: ellipsis;
   
@@ -241,6 +238,13 @@
   flex: 1;
   justify-content: center;
   align-items: center;
+  padding:0 8px;
+}
+@media scrren and (max-width:760px){
+	.modal-basket-product-name {
+		font-size: 0.8rem;
+		
+	}
 }
 .modal-basket-total-price {
   display: flex;

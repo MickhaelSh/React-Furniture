@@ -95,3 +95,10 @@ a {
 #root{
 	height: 100%;
 }
+input,textarea{
+	padding-left: 1rem;
+}
+textarea{
+	padding-top: 1rem;
+}
+
