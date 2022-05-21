@@ -1,6 +1,6 @@
 .header-main {
   background: url('../components/img/header-background.webp') no-repeat;
-  background-position: 55% 80%;
+  background-position: 55% 75%;
   background-size: cover;
 }
 .header___top-container {
@@ -35,7 +35,7 @@
 }
 .header__title {
   display: flex;
-  padding-bottom: 230px;
+  padding-bottom: 332px;
 }
 
 .header__title-text {
