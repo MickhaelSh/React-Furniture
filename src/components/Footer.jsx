@@ -8,11 +8,14 @@ import FooterForm from './FooterForm';
 
 const footerLinks = [
   {
-    '/#promotions': 'Promotions',
-    '/#new-collection': '2022 Collection',
-    '/#fave': 'Best designer products',
+    '/React-Furniture//#promotions': 'Promotions',
+    '/React-Furniture/#new-collection': '2022 Collection',
+    '/React-Furniture/#fave': 'Best designer products',
   },
-  { '/#best-seling': 'Best-selling', '/#testimonials': 'Testimonials' },
+  {
+    '/React-Furniture/#best-seling': 'Best-selling',
+    '/React-Furniture/#testimonials': 'Testimonials',
+  },
 ];
 const social = [
   { name: 'facebook', image: facebook, link: 'https://facebook.com/' },

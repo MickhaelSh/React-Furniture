@@ -8,11 +8,11 @@ import Logo from './Logo';
 import HeaderMainTitle from './HeaderMainTitle';
 
 const links = {
-  '/#promotions': 'Promotions',
-  '/#best-seling': 'Best-seling',
-  '/#new-collection': 'New Collection',
-  '/#testimonials': 'Testimonials',
-  '/#contact': 'Contact us',
+  '/React-Furniture/#promotions': 'Promotions',
+  '/React-Furniture/#best-seling': 'Best-seling',
+  '/React-Furniture/#new-collection': 'New Collection',
+  '/React-Furniture/#testimonials': 'Testimonials',
+  '/React-Furniture/#contact': 'Contact us',
 };
 
 function Header() {
@@ -36,12 +36,12 @@ function Header() {
           {Object.keys(links).map((el) => (
             <NavLinks link={el} name={links[el]} key={el} className={'header__nav-element'} />
           ))}
-          <Link to="/all-products">
+          <Link to="/React-Furniture/all-products">
             <Button name="shop now" outline={true} exclusiveClass="header__button" />
           </Link>
         </nav>
       </div>
-      {path === '/' ? <HeaderMainTitle /> : ''}
+      {path === '/React-Furniture/' ? <HeaderMainTitle /> : ''}
       <ModalMenu open={activeModal} onToggleActiveModal={onToggleActiveModal} links={links} />
     </header>
   );

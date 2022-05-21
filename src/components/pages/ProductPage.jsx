@@ -18,7 +18,7 @@ function ProductPage() {
   return (
     element && (
       <main className="product-main container">
-        <Link to="/all-products" className="store-anchor">
+        <Link to="/React-Furniture/all-products" className="store-anchor">
           Store homepage
         </Link>
         <article className="product-container" data-id={element.id}>

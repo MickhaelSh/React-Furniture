@@ -36,7 +36,7 @@ function Home() {
               <span className="highlighted">15% off</span> on Tables & Cabinets
             </h3>
             <div className="collections__list-anchor">
-              <Link to="">learn more</Link>
+              <Link to="/React-Furniture/">learn more</Link>
             </div>
           </div>
           <div className="collections__list-item">
@@ -49,7 +49,7 @@ function Home() {
             </div>
             <h3 className="collections__list-title">All-White Collection in Store</h3>
             <div className="collections__list-anchor">
-              <Link to="/">learn more</Link>
+              <Link to="/React-Furniture/">learn more</Link>
             </div>
           </div>
           <div className="collections__list-item">
@@ -64,7 +64,7 @@ function Home() {
               <span className="highlighted">NEW!</span> Modern Collection by ARM
             </h3>
             <div className="collections__list-anchor">
-              <Link to="/">learn more</Link>
+              <Link to="/React-Furniture/">learn more</Link>
             </div>
           </div>
         </div>
@@ -98,7 +98,9 @@ function Home() {
               Best styles for your home or office in the most trending colors of 2020. Shop
               cushioned furniture, lamps, coffee tables and accessories here.
             </div>
-            <HashLink to="/#fave" className="button button-filled spring-collection-button">
+            <HashLink
+              to="/React-Furniture/#fave"
+              className="button button-filled spring-collection-button">
               our faves
             </HashLink>
           </div>
@@ -119,7 +121,7 @@ function Home() {
               <br />
               Shop the collections of selected designers.
             </p>
-            <HashLink to="/#fave" className="button button-filled white-anchor">
+            <HashLink to="/React-Furniture/#fave" className="button button-filled white-anchor">
               learn more
             </HashLink>
           </div>
@@ -136,7 +138,7 @@ function Home() {
               Set bright accents in your interior. <br />
               Shop the collections of selected designers.
             </p>
-            <HashLink to="/#fave" className="button button-filled black-anchor">
+            <HashLink to="/React-Furniture/#fave" className="button button-filled black-anchor">
               learn more
             </HashLink>
           </div>
