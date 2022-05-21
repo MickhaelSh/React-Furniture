@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 
 function Logo({ className }) {
   return (
-    <Link to="/" className="header__nav-element">
+    <Link to="/React-Furniture/" className="header__nav-element">
       <img
         className={className}
         src={

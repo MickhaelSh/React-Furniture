@@ -16,7 +16,7 @@ function Cartitem({
     <div className="modal-basket-product-container cart-item" data-id={id}>
       <div className="modal-basket-product-img-container">
         <Link
-          to={`/product/${id}`}
+          to={`/React-Furniture/product/${id}`}
           onClick={() => {
             closeCart();
           }}>
@@ -25,7 +25,7 @@ function Cartitem({
       </div>
       <div className="modal-basket-product-info">
         <Link
-          to={`/product/${id}`}
+          to={`/React-Furniture/product/${id}`}
           onClick={() => {
             closeCart();
           }}>

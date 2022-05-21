@@ -10,7 +10,9 @@ function HeaderMainTitle() {
         <div className="header__title-text">
           500+ models of cushioned furniture, lamps and accessories.
         </div>
-        <HashLink to="/#best-seling" className="button header__button-title button-filled">
+        <HashLink
+          to="/React-Furniture/#best-seling"
+          className="button header__button-title button-filled">
           Best-selling products{' '}
         </HashLink>
       </div>

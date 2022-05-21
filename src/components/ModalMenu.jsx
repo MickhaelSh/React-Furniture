@@ -9,7 +9,10 @@ function ModalMenu({ open, onToggleActiveModal, links }) {
     <div className={`modal-menu ${open ? 'active' : ''}`}>
       <div className="modal-menu__header">
         <div className="modal-menu__logo-container ">
-          <Link to="/" className="modal-menu__nav-element" onClick={onToggleActiveModal}>
+          <Link
+            to="/React-Furniture/"
+            className="modal-menu__nav-element"
+            onClick={onToggleActiveModal}>
             <img
               src="https://res2.weblium.site/res/5e2f1da2c947890021c3f194/5e33277186cda400222c9970_optimized_259?nowebp"
               alt="sofa logo"
@@ -27,7 +30,7 @@ function ModalMenu({ open, onToggleActiveModal, links }) {
             className={'modal-menu__nav-element'}
           />
         ))}
-        <Link to="/all-products" onClick={onToggleActiveModal}>
+        <Link to="/React-Furniture/all-products" onClick={onToggleActiveModal}>
           <Button name="shop now" outline={true} exclusiveClass="header__button" />
         </Link>
       </nav>

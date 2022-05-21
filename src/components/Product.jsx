@@ -8,11 +8,11 @@ function Product({ product, addToCart }) {
   return (
     <div className="fave-finds__item cart-item" data-id={id}>
       <div className="fave-finds__item-image-containter">
-        <Link to={`/product/${id}`}>
+        <Link to={`/React-Furniture/product/${id}`}>
           <img className="item-image" src={imageUrl} alt={name} />
         </Link>
       </div>
-      <Link to={`/product/${id}`}>
+      <Link to={`/React-Furniture/product/${id}`}>
         <div className="fave-finds__item-name item-name">{name}</div>
       </Link>
       <div className="fave-finds__price">

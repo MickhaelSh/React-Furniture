@@ -22,10 +22,13 @@ function App() {
       <Header />
       <div className="content">
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/all-products" element={<AllProducts />} />
-          <Route path="/product/:productID" element={<ProductPage />} />
-          <Route path="/all-products/product/:productID" element={<ProductPage />} />
+          <Route path="/React-Furniture/" element={<Home />} />
+          <Route path="/React-Furniture/all-products" element={<AllProducts />} />
+          <Route path="/React-Furniture/product/:productID" element={<ProductPage />} />
+          <Route
+            path="/React-Furniture/all-products/product/:productID"
+            element={<ProductPage />}
+          />
         </Routes>
         <Cart />
       </div>
