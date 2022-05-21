@@ -18,13 +18,14 @@ const links = {
 function Header() {
   const [activeModal, setActiveModal] = useState(false);
   const path = useLocation().pathname;
+  console.log(path);
 
   function onToggleActiveModal() {
     setActiveModal(activeModal === true ? false : true);
   }
 
   return (
-    <header className={`header ${path === '/' ? 'header-main' : ''}`}>
+    <header className={`header ${path === '/React-Furniture/' ? 'header-main' : ''}`}>
       <div className="header___top-container container">
         <Logo className="header__img-container" />
         <div
