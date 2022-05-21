@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/React-Furniture/static/css/main.a8212650.css",
-    "main.js": "/React-Furniture/static/js/main.d32e1793.js",
+    "main.css": "/React-Furniture/static/css/main.d9272c2e.css",
+    "main.js": "/React-Furniture/static/js/main.5fcb9e99.js",
     "static/media/header-background.webp": "/React-Furniture/static/media/header-background.64c812d68bfff3a4d814.webp",
     "static/media/shopping-basket.svg": "/React-Furniture/static/media/shopping-basket.c10c73ea74118ce9ec49f1fcd6f4c60d.svg",
     "static/media/trash-basket.svg": "/React-Furniture/static/media/trash-basket.061cceedd8160e29f243.svg",
@@ -10,11 +10,11 @@
     "static/media/about-us-cart.svg": "/React-Furniture/static/media/about-us-cart.a7bc278120caf90d0367962b9f8d8ae2.svg",
     "static/media/about-us-warranty.svg": "/React-Furniture/static/media/about-us-warranty.f5c53eb7be769574f3629f31221eb71b.svg",
     "index.html": "/React-Furniture/index.html",
-    "main.a8212650.css.map": "/React-Furniture/static/css/main.a8212650.css.map",
-    "main.d32e1793.js.map": "/React-Furniture/static/js/main.d32e1793.js.map"
+    "main.d9272c2e.css.map": "/React-Furniture/static/css/main.d9272c2e.css.map",
+    "main.5fcb9e99.js.map": "/React-Furniture/static/js/main.5fcb9e99.js.map"
   },
   "entrypoints": [
-    "static/css/main.a8212650.css",
-    "static/js/main.d32e1793.js"
+    "static/css/main.d9272c2e.css",
+    "static/js/main.5fcb9e99.js"
   ]
 }
