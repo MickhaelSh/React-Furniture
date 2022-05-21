@@ -1,5 +1,5 @@
 .fave-finds {
-  margin: 96px auto;
+  margin: 72px auto;
 }
 .fave-finds__tittle-container {
   display: flex;
@@ -39,16 +39,26 @@
     grid-template-columns: repeat(4, 1fr);
   }
 }
+
 .fave-finds__item {
-  display: flex;
-  font-size: 20px;
-  align-items: center;
-  flex-direction: column;
-  gap: 24px;
-  margin: 32px 16px;
-  justify-content: space-between;
-  min-height: 550px;
+	display: flex;
+	flex-direction: column;
+	font-size: 20px;
+	align-items: center;
+	
+	height: 100%;
+	gap: 16px;
+	margin: 32px 16px;
+	justify-content: space-between;
 }
+@media screen and (min-width: 700px){
+.fave-finds__item { 
+ 
+  gap: 24px;
+}}
 .fave-finds__button {
   background-color: var(--main-white-color);
+}
+.fave-finds__item-name{
+	text-align: center;
 }

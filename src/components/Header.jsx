@@ -18,7 +18,6 @@ const links = {
 function Header() {
   const [activeModal, setActiveModal] = useState(false);
   const path = useLocation().pathname;
-  console.log(path);
 
   function onToggleActiveModal() {
     setActiveModal(activeModal === true ? false : true);

@@ -1,7 +1,7 @@
 .footer {
   background-color: var(--main-black-color);
   color: var(--main-white-color);
-  padding-top: 96px;
+  padding-top: 72px;
 }
 .footer__content {
   display: grid;
@@ -65,6 +65,7 @@
 .footer__subscrive-form {
   display: flex;
   flex-direction: column;
+  padding-bottom:1rem;
   gap: 24px;
   align-items: center;
 }
@@ -93,7 +94,7 @@
 .footer__copyrights {
   display: flex;
   justify-content: space-between;
-  padding: 18px 0;
+  padding: 16px 16px;
   font-size: 14px;
   color: var(--lighter-gray-color);
 }

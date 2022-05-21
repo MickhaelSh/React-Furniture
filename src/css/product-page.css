@@ -7,7 +7,7 @@
 .product-container {
   display: flex;
   flex-direction: column;
-  margin: 96px 0;
+  margin: 72px 0;
   gap: 5%;
 }
 

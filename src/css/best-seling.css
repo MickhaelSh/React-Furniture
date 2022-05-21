@@ -1,15 +1,15 @@
 .best-seling {
-  margin: 96px auto;
+  margin: 72px auto;
 }
 .best-seling__title-container {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
 }
 .best-seling__title {
   font-size: 38px;
   font-weight: 500;
-  margin-left: 16px;
+  
 }
 .best-seling__title-text {
   font-size: 18px;

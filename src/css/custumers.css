@@ -6,12 +6,16 @@
 .custumers__title-container {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
 }
 .custumers__title {
   font-size: 38px;
   font-weight: 500;
   margin: 0 16px;
+}
+.custumers__title-text{
+	margin: 0 16px;
+
 }
 
 .custumer .swiper-initialized{

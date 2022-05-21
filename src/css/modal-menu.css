@@ -14,7 +14,7 @@
   width: 100vw;
   background-color: var(--main-white-color);
   font-size: 1.2rem;
-  transition: all 0.4s;
+  transition: all 0.2s;
   z-index: 11;
 }
 .modal-menu__header {

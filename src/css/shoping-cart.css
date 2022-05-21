@@ -12,13 +12,13 @@ body {
   background-color: var(--main-white-color);
   border-radius: 30%;
   border: none;
-  transition: all 0.4s;
+  transition: all 0.2s;
   box-shadow: 0 3px 5px var(--main-black-color);
   cursor: pointer;
 }
 .shoping-basket.active {
   right: 20px;
-  transition: all 0.4s;
+  transition: all 0.2s;
 }
 .shoping-basket-img {
   width: 90%;
